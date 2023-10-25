@@ -12,8 +12,8 @@ function Left() {
       <div className="h-screen bg-zinc-300 flex flex-col justify-between">
         <motion.div
           className="pt-8 flex flex-col z-10"
-          animate={{ x: 0 }}
-          initial={{ x: -100 }}
+          animate={{ opacity: 1 }}
+          initial={{ opacity: 0 }}
           transition={{ duration: 1 }}
         >
           <h1 className="font-silk text-4xl flex pl-10 leading-8 items-center">
@@ -27,12 +27,12 @@ function Left() {
             gleg
           </h1>
         </motion.div>
-        <div className="bg-gradient-to-r z-10 from-zinc-100 via-zinc-300 to-zinc-300 px-10 py-6 flex flex-col space-y-4">
+        <div className="bg-gradient-to-r z-10 from-zinc-50 via-zinc-30 to-zinc-300 px-10 py-6 flex flex-col space-y-4">
           <div className="max-w-3xl">
             <motion.h1
               className="font-silk text-5xl lg:text-7xl"
-              animate={{ x: 0 }}
-              initial={{ x: -100 }}
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
               transition={{ duration: 0.5 }}
             >
               discover the most secure storage solution.
@@ -41,19 +41,18 @@ function Left() {
           <div>
             <motion.h1
               className="font-silk text-sm lg:text-lg mr-10 ml-2"
-              animate={{ x: 0 }}
-              initial={{ x: -100 }}
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
               transition={{ duration: 0.7 }}
             >
-              the decentralized storage system powerd by ethereum
-              blockchain.
+              the decentralized storage system powerd by ethereum blockchain.
             </motion.h1>
           </div>
           <div>
             <motion.button
               className="capitalize text-zinc-200 ml-2 rounded px-4 py-1 bg-black font-silk hover:bg-[#233d00]"
-              animate={{ x: 0 }}
-              initial={{ x: -100 }}
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
               transition={{ duration: 0.9 }}
               whileHover={{ scale: 1.1 }}
               drag
@@ -73,8 +72,8 @@ function Left() {
         </div>
         <motion.div
           className="flex w-full z-10 md:w-[450px] px-10 pb-8 justify-between"
-          animate={{ x: 0 }}
-          initial={{ x: -100 }}
+          animate={{ opacity: 1 }}
+          initial={{ opacity: 0 }}
           transition={{ duration: 1 }}
         >
           <h1 className=" font-silk text-lg cursor-pointer hover:underline-offset-[10px] hover:underline decoration-[#91FF05] decoration-4">

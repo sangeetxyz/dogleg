@@ -17,8 +17,8 @@ function Right() {
         <div className="flex justify-end mt-8">
           <motion.button
             className="capitalize rounded px-4 py-1 bg-[#91FF05] mr-8 font-silk hover:bg-[#69b604]"
-            animate={{ x: 0 }}
-            initial={{ x: 100 }}
+            animate={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
             whileHover={{ scale: 1.1 }}
             drag
             dragConstraints={{
@@ -41,8 +41,8 @@ function Right() {
             src={ethGreen}
             alt="ethereum logo"
             className="w-[70%] z-10"
-            animate={{ x: 0 }}
-            initial={{ x: 100 }}
+            animate={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
             drag
             dragConstraints={{
               top: 0,
@@ -55,8 +55,8 @@ function Right() {
         </div>
         <motion.div
           className="flex justify-center px-12"
-          animate={{ x: 0 }}
-          initial={{ x: 100 }}
+          animate={{ opacity: 1 }}
+          initial={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
         >
           <h1 className="text-zinc-200 text-center text-4xl capitalize font-silk">
@@ -103,8 +103,8 @@ function Right() {
             <motion.button
               type="submit"
               className="capitalize hover:bg-[#69b604] rounded px-4 py-1 bg-[#91FF05] font-silk"
-              animate={{ x: 0 }}
-              initial={{ x: 100 }}
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
               whileHover={{ scale: 1.1 }}
               drag
               dragConstraints={{

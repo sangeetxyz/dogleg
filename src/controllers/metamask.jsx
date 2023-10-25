@@ -6,7 +6,6 @@ const metamask = async () => {
   const contractAddress = "0x9c99638fa7a7b6a6f48735add0e806020840922f";
   const contractAbi = doogle.abi;
   if (window.ether) {
-    
   }
   try {
     const { ethereum } = window;
